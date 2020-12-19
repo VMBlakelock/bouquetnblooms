@@ -371,3 +371,56 @@ It was found during development that the site definitely needed more pages addin
 This was to allow for guest users to see more than just the home page and register pages. It was realised the guest user needed to be enticed more. Therefore the Highlights page was created.
 Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose. 
 
+### Validation sites
+
+- When validating the code for HTML and CSS using [W3C Markup Validation](https://validator.w3.org/), errors where found and some were rectified, rectified errors included simple code errors and typos.
+  However there were some errors the developer was unable to fix. Below shows a few examples.
+  
+  base.html
+  - x errors found
+  
+  Error: xxx.
+    At line x, column x   
+
+
+- [Jshint](https://jshint.com/) for JS validation found error warnings, however many was of the same error. Unfortunately a fix wasn't implemented due to lack of understanding on how to resolve them and to time constraints. 
+  Here are the errors for highlight.html
+  - 4 errors found.
+
+  Expected a string and instead saw %.
+  Expected ':' and instead saw 'extends'.
+  Expected '}' and instead saw '%'.
+  Unrecoverable syntax error. (1% scanned).
+
+- [PEP8](http://pep8online.com/) was used for testing Python errors.
+  There were many errors on most pages, mostly referencing tabs and indentation. Again due to time constraints these errors were not rectified.
+  Below are some common examples
+    - missing whitespace around operator
+    - trailing whitespace
+    - indentation contains tabs
+
+
+### Browsers tested
+
+- Chrome: Using Google Developer Tools - Chrome was used for testing on Laptop, Tablet and Android devices.
+
+- Safari: Safari wasn't used for testing on an I phone or Mac, due to not having physical access to these type of devices. However they were viewed on Google Dev Tools.
+
+### Devices tested
+
+On the final testing session the below devices where used to check if responsive, here are the outcomes.
+
+Mobile:
+- Android - Samsung Galaxy A40 - Outcome: All is responsive.
+- Android - Samsung Galaxy A20 - Outcome: All is responsive.
+- Android - Samsung Galaxy S10 - Outcome: All is responsive.
+
+Laptop:
+- Toshiba Satellite C850 - Outcome: All is responsive.
+- HP Model I5 - Outcome: All is responsive.
+
+The only responsive bug the developer found was on the [Techsini](https://techsini.com/multi-mockup/) - Responsive Mock up.
+On the mock up it shows on I pad that the footer is half way up the page, however in Google Dev Tools this is not the case.
+However due to not having an Apple Ipad to physically, it cannot be concluded the site is not responsive.   
+
+<hr>
