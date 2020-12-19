@@ -310,3 +310,64 @@ BouquetBlooms - Future features could include:
 - [Jshint](https://jshint.com/)
 - [PEP8](http://pep8online.com/)
 
+<hr>
+
+### Testing
+
+Manual Testing was undertaken during the creation of this site. 
+Testing included tests on various devices for responsiveness and UX aswell as testing code for bugs.
+Code was validated for best practice.
+
+ - Validation sites used:
+   - W3C Markup Validator
+   - Jshint
+   - Pep8 Compliance
+
+Below highlights the main issues, bugs and validation errors found during the development and how if possible the issues were rectified.
+Some errors where not rectified, this was due to either lack of developer knowledge or due to time constraints for further reading of validation documentation and/or testing.
+
+
+#### Issue 1
+
+Issues with errors occurred when working on py files. I had to clear the errors Gitpod advised on. 
+Most errors due to the 2 line spacing rule and using the tab key instead of spaces and also not entering to a new line.
+Other errors included -*'lines being to long'* and *'Doctype must be declared'*.  
+In previous module for using Flask it was advised that it is acceptable for the *'Doctype must be declared'* to be left uncleared as this was 
+due to the linter Gitpod uses not understanding the template language Jinja. 
+
+*When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesn't know how to properly read templating languages like Jinja*
+Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
+[Code Institute](https://codeinstitute.net/)
+
+Most errors where fixed except those of which the developer did not understand fully for example - 'imported but unused'.
+
+#### Issue 2
+
+SECRET KEY - During development the SECRET_KEY was accidently pushed to GitHub. The developer did not realise Django automatically
+creates this and therefore pushed the code. On receiving the GitGuardian email the error was realized and a new env.py file was created
+and a new Django SECRET_KEY added. However in the git commit history there is no confirmation code was pushed here as the next commit states *'index.html block content code added'*
+Something for the developer to note for future 'all major changes and bug fixes to be commited and pushed for reference'.
+
+#### Issue 3
+
+When it came to adding datasets for the project it was advised to use [Kaggle](https://www.kaggle.com/).
+However when researching and trying to download there was an error on the site *too many requests*. Reading through the documentation and forums it seems this is a 
+known error. The developer requested advise from Code Institute on this matter to assist in moving forward with getting a dataset for the project.
+
+#### Issue 4
+
+During development the Gitpod terminal offered a warning. Advising that it was working with pip v20.2.4 and there was a new version and recommends and upgrade.
+The developer followed the on terminal instructions and upgraded to v20.3.3.
+
+
+#### Issue 5
+
+At one point during development Python advised to install [Pillow](https://pillow.readthedocs.io/en/stable/). The developer did not have any knowledge of this imaging library.
+The documentation was reviewed and the library was installed in the project.
+
+#### Issue 6
+
+It was found during development that the site definitely needed more pages adding. The initial four created an inception and wireframing wasn't going to be enough. 
+This was to allow for guest users to see more than just the home page and register pages. It was realised the guest user needed to be enticed more. Therefore the Highlights page was created.
+Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose. 
+
