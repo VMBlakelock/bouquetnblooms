@@ -189,3 +189,62 @@ BouquetBlooms chose a simplistic design with whitespace so to not overpower the 
  - font: 'Lato' - from Google Fonts
 
 <hr>
+
+## Features 
+
+### Existing Features
+
+**Multiple pages:** The site has multiple responsive pages, using the mobile first approach. 
+
+**User friendly:** Each page has its own purpose and uses a simple mouse movement on desktop and scroll movement on mobiles and tablets to provide easy navigation. 
+
+**Fonts and Colours:** Simplistic design incorporating only pastel colour and minimal text.
+
+**Navbar:** A Bootstrap fixed Navbar at the top on desktop and a side navbar on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
+
+**Button:** Chosen from Bootstrap the buttons when clicked do something and confirm user actions. Buttons are big and small an of different colours and provide 'word' instruction. 
+
+**Forms:** Code from Bootstrap. The Register, Log In, pages both have forms on that are required to be completed. The forms are self explanatory.
+They have input fields and textareas that are set with min-length and max-length classes.
+
+**Icons:** Font Awesome icons are used on the form fields to provide instructions aswell as for design, the font awesome kit is used in the code. 
+
+**Images:** Vibrant images are used in the design. Selected images provide an idea of the product on offer.
+
+**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' to redirect users to an alternative area dependent on their next wanted action.
+
+**Search Bar:** Have a 'Search' bar, so users can search for specific recipe using key words.
+
+**Footer:** The footer provides a clear indication of the end of the page.
+
+**Social Media Links:** BouquetBlooms has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
+
+**Copyright:** Copyright logo - hosts the website owners own work.
+
+########################################
+
+**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will receive the message "Incorrect Username and/or Password".
+The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will receive the message "You have successfully logged out".
+Flash messages are also used for confirming a recipe has been added, edited and deleted.
+
+**Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
+
+############################################
+
+### Future Features
+
+BouquetBlooms - Future features could include:
+
+- Having a larger database of subscription packages for guest users to view and purchase.
+- The subscriptions could be seasonal or weekly, have different price points.
+- User profile to be created.
+- Have a logo, that takes the BouquetBlooms text into something more memorable.
+- Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
+- A review score of the products.
+- Feedback section to provide users with feedback on the sites product and services.
+- Forgotten password feature, so passwords can be reset.
+- A blog that gives advise and learnings on floristry.
+- A messenger area where registered users can chat to a company employee live on the site.
+- Expand the e commerce shop where users could order one time products and merchandise.
+
+<hr>
