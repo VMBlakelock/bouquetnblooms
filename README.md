@@ -248,3 +248,65 @@ BouquetBlooms - Future features could include:
 - Expand the e commerce shop where users could order one time products and merchandise.
 
 <hr>
+
+## Technologies and Frameworks 
+
+
+#### Technologies
+- [HTML](https://www.w3schools.com/whatis/whatis_html.asp)
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+- [Javascript](https://www.w3schools.com/whatis/whatis_js.asp)
+- [Python](https://www.python.org/doc/essays/blurb/)
+- JSON
+
+#### Frameworks
+- [Django](https://www.djangoproject.com/)
+    - The web application framework used in the project to allow fast and easy development of sites.
+
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/)
+    - A web application library in Flask that was used to for secure authentication using password hashing.
+
+- [Bootstrap](https://getbootstrap.com/)
+    - A web based front-end framework that assists in responsiveness and styling that was used throughout the project.
+
+- [JQuery](https://jquery.com/)
+    - The JavaScript library used within the Materialize framework.
+
+#### Database
+- [........](https://www................../)
+    - A document based database and the type of database used when developing this project
+
+#### Text Editor
+- [Gitpod](https://gitpod.io/)
+    - A cloud based IDE, that uses prebuilt workspaces.
+
+#### Version Control
+- [Git](https://git-scm.com/)
+    - Version control system that works within the Gitpod terminal. Used to commit and push recent code to GitHub.
+
+#### Hosting Platform
+- [Heroku](https://https://dashboard.heroku.com/)
+    - The application platform used for the live deployed site.
+
+- [Github](https://github.com/)
+    - A repository store, used to house the sites repository.
+
+#### Developer Tools
+- [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+#### Colorcodehex
+- [Colorcode](https://www.colorcodehex.com/022072.html)
+
+#### Font Awesome
+- [Font Awesome](https://fontawesome.com/)
+    - Used for UX icons and getting 'kit' code.
+
+#### RandomKeygen
+- [RandomKeygen](https://www.randomKeygen.com/)
+  - Site to select a secure SECRET_KEY password.
+
+#### Validation sites
+- [W3C Markup Validation](https://validator.w3.org/)
+- [Jshint](https://jshint.com/)
+- [PEP8](http://pep8online.com/)
+
