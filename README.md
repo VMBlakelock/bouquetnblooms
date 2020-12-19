@@ -424,3 +424,92 @@ On the mock up it shows on I pad that the footer is half way up the page, howeve
 However due to not having an Apple Ipad to physically, it cannot be concluded the site is not responsive.   
 
 <hr>
+
+## Evaluation
+
+- Overall the design and development of this site is suitable for its intended purpose.
+- It has all the basic requirements of a functional website and meets CRUD functionality of the project criteria.
+- Due to do external commitments additional features have been left out. The developer is aware of aspects that don't function as intended or are not yet could be added.        
+- Most of the user stories where met, with the exception of editing user content as an Admin User. In the future this can be looked into and implemented along with the option to delete or block user if required.
+- Images on the site are not all suitable for the sites look. It was found to be an issue to find a good selection of free stock professional images of Greek Cuisine.
+  This is something that can be changed so it gives the site a better visual. For now some Mediterranean images were used. 
+- Many future features could be added to provide more interactive activity, functionality and imagery.
+- Branch testing - No branch testing was undertaken, something that the developer was intending to do - however was just overlooked.
+- Manual Testing was undertaken and this was found to be successful. It is noted that there are many validation errors that needs to be looked into by the developer at a later date.
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/) was used in this project for authentication and secure passwords. This was new to the developer and was found to be interesting and a great tool to be aware of for future projects.
+- Some front-end design changes were made during the build due to varying factors:
+    - Materialize image carousel, looked good and fitted the sites initial idea but didnt load well. Also the developer found it difficult to change the prebuilt images and the image links kept breaking.
+    - The site was to have 4 pages initially but it was discovered early in development that more pages would be required.
+
+<hr>
+
+
+## Deployment
+
+#### Heroku:
+
+The project is deployed to Heroku. It uses the automatic deployment method via Github, using your Github repository.
+Below shows the steps to deploy on Heroku:
+
+1. Heroku requires certain dependencies and applications to run our application. There we need to tell it what is required. 
+   In the terminal type 
+   - $ pip3 freeze --local > requirements.txt
+   - $ echo web: python app.py > Procfile
+2. Register on the Heroku website - [Heroku](https://www.heroku.com/) or Log in for existing users.
+3. From the dashboard click 'New' and 'Create new app'.
+4. Enter your unique 'App name' (Heroku practice is for it to be lowercase and to use hyphen (-) instead of spaces).
+5. Select your region, then click 'Create App'.
+6. Create app directs to Heroku's 'Deploy' tab, select the deployment method of 'GitHub'.
+7. Your Github profile should be displayed, enter your repository name here and click 'Search'. (Idealy your Heroku app name and your repository name should be the same).
+8. Your repository should display here and a 'Connect' button appears to connect to your app.
+9. Before you click 'Connect', head over to 'Settings' tab and scroll down to the 'Config Vars' section. As we have contained our Environment Variables
+   in our env.py file we need to tell Heroku these in a secure manner.
+   Add your variables to the below Key/Value pairs:
+    - IP
+    - PORT
+    - SECRET_KEY
+    - MONGO_URI
+    - MONGO_DBNAME
+
+10. Final step before we connect to Heroku is to push our new files 'requirements.txt' and 'Procfile' to the repository.
+    Back in the terminal have a check of the workspace status, type: git status. this will show your new pending files.
+    Continue in the terminal and type:
+    - $ git add requirements.txt
+    - $ git commit -m "Added requirements.txt"
+ 
+   - $ git add Procfile
+   - $ git commit -m "Added Procfile"
+
+   - $ git push
+
+11. Go back to Heroku 'Deploy' tab, click 'Enable Automatic Deploys' in the section Automatic Deploys. Finally under Manual Deploy section click 'Deploy Branch'.
+    Heroku will now receive the code from GitHub and start building the app using the required packages.
+    Once built you will receive the message 'Your app was successfully deployed' then can click 'View' to launch your new app.
+
+12. Your deployed app is now available and should update automatically everytime you push to the Github repository.
+
+
+
+#### Github:
+
+In [GitHub](https://github.com/) we can view the repository. 
+
+Should you want to 'Fork' or 'Clone' this repository to use as a base template for your own projects you can do so.
+ - To 'Fork':
+1. Head to the repository, on the top right click 'fork' button.
+   You now have your own copy of the forked repository in your Github account.
+
+If you want to run this project locally, we must clone the project.
+- To 'Clone':
+1. Under the repository name, click the 'Code' button on the right.
+2. A dropdown 'Clone with HTTPs' section appears, here copy the clone URL for the repository.
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type 'git clone' and paste the URL you copied.
+
+- Example: git clone  = https://github.com/VMBlakelock/saute-and-skewers-greekfood
+
+6. Press Enter. Your local clone is now created.
+
+
+<hr>
