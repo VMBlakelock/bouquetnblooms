@@ -513,3 +513,98 @@ If you want to run this project locally, we must clone the project.
 
 
 <hr>
+
+
+## Credits
+
+Personal credits go out to the following people:
+
+Tutor Support
+- Igor from tutor support who clarified issues regarding Secret key errors.
+- Scott for totor support for assisting in follow up questions to Igor, also pointing me in the direction of Gitpod variable section.
+
+<hr>
+
+
+#### Websites reviewed
+
+Websites reviewed and used during the creation of this project.
+
+- [Balsamiq](https://balsamiq.com/)
+  - Used for creating the wireframe mocks.
+  
+- [Bootstrap](https://getbootstrap.com/)
+  - Researching carousel functionality, although wasn't used in the project.
+
+- [Codeacademy](https://www.codecademy.com/catalog/language/python)
+  - Article referring to Python programming language.
+
+- [Diffchecker](https://www.codecademy.com/catalog/language/python)
+  - Site for checking differences in code.
+
+- [Google Fonts](https://www.fonts.google.com/basic-syntax/)
+  - Used for choosing the site font.
+
+- [Jsonformatter](https://jsonformatter.org/)
+  - Reviewed whilst following the module videos.
+
+- [Jshint](https://jshint.com/)
+  - Validation testing of Javascript.
+
+- [Kaggle](https://www.kaggle.com/)
+  - Reviewed for data set examples.
+
+- [Markdownguide](https://www.markdownguide.org/basic-syntax/)
+  - This website was used to refresh knowledge on how to write Markdown.
+
+- [Miniwebtool](https://miniwebtool.com/django-secret-key-generator/)
+  - This website was used to generate the new SECRET_KEY.
+
+- [Pexels](https://www.pexels.com/)
+  - Website flower images were selected from this source.
+
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+  - Reviewed site documentation due to python advising of installing it.
+
+- [Python](https://www.python.org/doc/essays/blurb/)
+  - Reviewed for gaining additional understanding of the language.
+
+- [RandomKeygen](https://www.randomKeygen.com/)
+  - Used for Fort Knox password.
+
+- [StackOverflow](https://stackoverflow.com/)
+  - Various research and questions throughout.
+
+- [Techsini](https://techsini.com/multi-mockup/)
+  - Used for Mock Up Images.
+
+- [TraversyMedia](https://youtu.be/e1IyzVyrLSU)
+    - A You Tube tutorial video to gain greater understanding of Django.
+    
+- [Werkzeug](https://palletsprojects.com/p/werkzeug/)
+    - Used to gain knowledge in authentication and secure passwords.
+
+- [W3Schools](https://www.w3schools.com/basic-syntax/)
+  - Reviewed and used frequently throughout the design of this project.
+
+- [W3C Markup Validation](https://validator.w3.org/)
+  - Validation testing of HTML and CSS.
+
+<hr>
+
+
+## Acknowledgements
+
+[Slack](https://slack.com/intl/en-gb/), the entire community of students past and present for their motivation and concern in this last submission and pushing to 
+ensure something was submitted.
+
+[Code Institute](https://codeinstitute.net/) Tutor Support for assistance when facing difficulties.
+
+The developer's abilities where tested during the development of this project.
+2020 has been a strange and tough year, the developer tried hard to stay on track with study and submissions as well as working full time, over and above the 
+normal working days throughout the year. Unfortunatley time and health tookover.
+Therefore ms4 project was created with minimum time left before submission date and the developers subscription ended. Unfortunately no additional extentions where allowed.
+Therefore apologies for the basic and unfunished BouquetBlooms project submission, however it was decided to submit something than nothing.
+
+
+*Created for education purposes only*
