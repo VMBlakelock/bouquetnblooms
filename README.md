@@ -105,3 +105,87 @@ The website owner would like the website design to:
 
 <hr>
 
+## The 5 Planes of content strategy
+
+### Strategy
+
+- BouquetBlooms is an e commerce website. It allows users to purchase a service. 
+- This service is in the form of a subscription.
+- The subscription is a one time payment and the service is then dispensed monthly by the retailer.
+- The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Django. 
+- The project uses a ...................... database. 
+- There is a clear brand to the site that draws users and entices further interaction.
+- Users who discover BouquetBlooms, love flowers and are excited to use the service.
+- BouquetBlooms has the potential to become an excellent revenue generating business site. 
+  Adding additional features (blog, client reviews for example) and marketing the site well could mean BouquetBlooms could generate even more revenues.
+- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetBlooms had just one subscription and one product set. 
+
+
+### Scope 
+
+- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetBloom.
+- The database of choice to build with was ...............
+- It was scoped to provide ease of use.
+- Have minimal pages, however must house a home page, registration page, log in page, log out page.
+- Have and app that allowed users to purchase from the site.
+- Be responsive on all devices.
+- Be visually appealing that incorporated the beauty of  flowers and blooms in the front-end design.
+
+
+### Structure
+
+- BouquetBlooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
+- All pages are designed identically with 3 sections - a navbar, content area and a footer.
+- The Home page has 'Welcome' text that introduces the site. An 'About Us' section that gives instruction to join. A main image and 3 smaller images. 
+- The Highlights page shows a selection of recipe content and images for all users to view. This can be updated and/or changed - as and when the owner wants.
+- The Register page has a basic registration form with a button and a link to login if already registered.
+- The Login page has a basic login form with a button and a link to register if not already a member. 
+- Once logged in the Login page opens a Profile page, this shows a 'Welcome Back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Pages.
+- The Add Recipe page is where users can add their own recipes. There is a form to complete and a 'Add Recipe' button to submit their recipe. 
+  Once the recipe is submitted the user is redirected to the Recipes page with a flash message 'Recipe Successfully Added' here the user can see their new entry.
+- The Recipes page is the home of user recipes already added. This is data stored in the MongoDB database.
+- If logged in, a user can see all recipes in the database, with functionality to 'edit' or 'delete' their own.
+- If the user wants to 'Edit' a recipe they created, they can click on the edit button and it will take them to the 'Edit Recipe' Page.
+- The Edit Recipe page mirrors the Add Recipe page, however this has an additional 'Cancel' button in case the user changes their mind.
+- If the user wants to 'Delete' an entry, they can click the 'Delete' button and the recipe will be deleted. The user is advised with a flash message 'Recipe has been deleted'.
+- Users can only Edit or Delete their own recipes, buttons are not active on other users entries.
+- Finally the Log Out page displays, a 'You have been logged out message' and the returns to the Log In page view.
+
+### Skeleton
+
+- Initially four wireframes where created - the three main pages of the site and a subscription page.
+- These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
+- All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
+
+Desktop:
+
+[Home](wireframes/base-desktop.png)
+[Register](wireframes/register-desktop.png)
+[Login](wireframes/login-desktop.png)
+[Subscription](wireframes/subscription-desktop.png)
+
+Mobile:
+
+[Home](wireframes/base-mobile.png)
+[Register](wireframes/register-mobile.png)
+[Login](wireframes/login-mobile.png)
+[Subscription](wireframes/subscription-mobile.png)
+
+### Surface 
+
+Front-end visuals where based on:
+ - A great brand design.
+ - Soft pastel colours in wallpapers.
+ - Vibrant and professional flower and bouquet images.
+ - Enticing and positive text.
+ - It is anticipated that the user would feel happy and positive on landing on the site and feel they wanted to purchase something even if that wasnt their intention.
+
+The typography colours and fonts where important to promote a calming effect but with a tempting feel good reaction that made the want to fullfil the sites output fully.
+With vibrant flower images in all colours the sites aim was to incorporate the many different seasonal blooms on offer into its design. 
+
+BouquetBlooms chose a simplistic design with whitespace so to not overpower the user.
+
+ - colour: #555;  - from Colorcodehex 
+ - font: 'Lato' - from Google Fonts
+
+<hr>
