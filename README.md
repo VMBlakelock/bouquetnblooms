@@ -4,7 +4,7 @@
 
 # BouquetnBlooms
 
-*Subscribe to have fresh BouquetBlooms everyday*
+*Subscribe to have fresh BouquetnBlooms everyday*
 
 *Deployed to [Heroku](https://flask-saute-and-skewers.herokuapp.com/) and stored in [Github](https://github.com/)*
 
@@ -42,7 +42,7 @@ Technologies to be used in the project are HTML/CSS/Javascript/Python3 and Djang
 
 ### Purpose
 
-BouquetBlooms is a floristry website in which users can subscribe to have fresh bouquets of flowers delivered to them monthly.
+BouquetnBlooms is a floristry website in which users can subscribe to have fresh bouquets of flowers delivered to them monthly.
 
 All users to the site will see the websites services. However only registered users can subscribe and order.
 
@@ -63,7 +63,7 @@ As a guest user I want to:
  - find a navigation bar that links to other pages when clicked. 
  - understand the sites purpose upon landing.
  - be able to view the sites basic offerings.
- - be able to click social media icons to link out to other BouquetBlooms pages.
+ - be able to click social media icons to link out to other BouquetnBlooms pages.
  - have the option to register to the site to be able to interact with the site, see more and make a purchase.
 
 ### Registered Account
@@ -93,10 +93,10 @@ As an admin user I want to:
 The website owner would like users of the website to:
 -  Interact with the site.
 -  Enjoy the site.
--  Find the site easy to register to and purchase services.
+-  Find the site easy to register to and purchase a subscription.
 
 The website owner would like the website design to: 
-- be clean and crisp with visuals that are minimal and of soft colours.
+- be clean and crisp with visuals that are minimal and of soft colours yet with a striking bold balance.
 - have professional images that creates an instant attraction to the site.
 - have whitespace to create flow.
 - be easy to navigate.
@@ -109,51 +109,44 @@ The website owner would like the website design to:
 
 ### Strategy
 
-- BouquetBlooms is an e commerce website. It allows users to purchase a service. 
-- This service is in the form of a subscription.
-- The subscription is a one time payment and the service is then dispensed monthly by the retailer.
-- The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and Django. 
+- BouquetnBlooms is an e commerce website. It allows users to purchase a subscription. 
+- The subscription is a one time payment and the subscription is then dispensed by the retailer.
+- The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and uses Django. 
 - The project uses a ...................... database. 
 - There is a clear brand to the site that draws users and entices further interaction.
-- Users who discover BouquetBlooms, love flowers and are excited to use the service.
-- BouquetBlooms has the potential to become an excellent revenue generating business site. 
-  Adding additional features (blog, client reviews for example) and marketing the site well could mean BouquetBlooms could generate even more revenues.
-- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetBlooms had just one subscription and one product set. 
+- Users who discover BouquetnBlooms, love flowers and are excited to use the service.
+- BouquetnBlooms has the potential to become an excellent revenue generating business site. 
+- Adding additional features (blog, client reviews for example) and marketing the site well could mean BouquetnBlooms could generate even more revenues.
+- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetnBlooms overs just subscriptions. 
 
 
 ### Scope 
 
-- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetBloom.
+- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetnBloom in any of the catergories.
 - The database of choice to build with was ...............
 - It was scoped to provide ease of use.
-- Have minimal pages, however must house a home page, registration page, log in page, log out page.
+- It has minimal pages, however must it must house a home page, registration page, log in page, log out page and various category pages.
 - Have and app that allowed users to purchase from the site.
 - Be responsive on all devices.
-- Be visually appealing that incorporated the beauty of  flowers and blooms in the front-end design.
+- Be visually appealing that incorporated the beauty of flowers and blooms in the front-end design.
 
 
 ### Structure
 
-- BouquetBlooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
-- All pages are designed identically with 3 sections - a navbar, content area and a footer.
-- The Home page has 'Welcome' text that introduces the site. An 'About Us' section that gives instruction to join. A main image and 3 smaller images. 
-- The Highlights page shows a selection of recipe content and images for all users to view. This can be updated and/or changed - as and when the owner wants.
+- BouquetnBlooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
+- All pages are designed identically each with the navbar, basket and account............
+- The Home page has a banner that advises of an offer and bold text that introduces the site. 
+
 - The Register page has a basic registration form with a button and a link to login if already registered.
 - The Login page has a basic login form with a button and a link to register if not already a member. 
 - Once logged in the Login page opens a Profile page, this shows a 'Welcome Back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Pages.
-- The Add Recipe page is where users can add their own recipes. There is a form to complete and a 'Add Recipe' button to submit their recipe. 
-  Once the recipe is submitted the user is redirected to the Recipes page with a flash message 'Recipe Successfully Added' here the user can see their new entry.
-- The Recipes page is the home of user recipes already added. This is data stored in the MongoDB database.
-- If logged in, a user can see all recipes in the database, with functionality to 'edit' or 'delete' their own.
-- If the user wants to 'Edit' a recipe they created, they can click on the edit button and it will take them to the 'Edit Recipe' Page.
-- The Edit Recipe page mirrors the Add Recipe page, however this has an additional 'Cancel' button in case the user changes their mind.
-- If the user wants to 'Delete' an entry, they can click the 'Delete' button and the recipe will be deleted. The user is advised with a flash message 'Recipe has been deleted'.
-- Users can only Edit or Delete their own recipes, buttons are not active on other users entries.
+- If logged in, a user can see all .............. supscriptions on offer, with functionality to 'edit' or 'delete'.............
+
 - Finally the Log Out page displays, a 'You have been logged out message' and the returns to the Log In page view.
 
 ### Skeleton
 
-- Initially four wireframes where created - the three main pages of the site and a subscription page.
+- Four wireframes where created - the three main pages of the site and a subscription page.....
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -183,10 +176,10 @@ Front-end visuals where based on:
 The typography colours and fonts where important to promote a calming effect but with a tempting feel good reaction that made the want to fullfil the sites output fully.
 With vibrant flower images in all colours the sites aim was to incorporate the many different seasonal blooms on offer into its design. 
 
-BouquetBlooms chose a simplistic design with whitespace so to not overpower the user.
+BouquetnBlooms chose a simplistic design with whitespace so to not overpower the user.
 
- - colour: #555;  - from Colorcodehex 
- - font: 'Lato' - from Google Fonts
+ - colour: the text is - #555;  - from Colorcodehex 
+ - font: developer chose - 'Lato' - from Google Fonts
 
 <hr>
 
@@ -198,28 +191,22 @@ BouquetBlooms chose a simplistic design with whitespace so to not overpower the 
 
 **User friendly:** Each page has its own purpose and uses a simple mouse movement on desktop and scroll movement on mobiles and tablets to provide easy navigation. 
 
-**Fonts and Colours:** Simplistic design incorporating only pastel colour and minimal text.
+**Fonts and Colours:** Simplistic design incorporating pastel colours with a striking navbar and minimal text.
 
-**Navbar:** A Bootstrap fixed Navbar at the top on desktop and a side navbar on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
+**Navbar:** A Bootstrap fixed Navbar at the top on desktop on mobiles and tablets. The navbar links to the site pages, this changes dependent on the users status: Logged in, Logged out.
 
 **Button:** Chosen from Bootstrap the buttons when clicked do something and confirm user actions. Buttons are big and small an of different colours and provide 'word' instruction. 
 
-**Forms:** Code from Bootstrap. The Register, Log In, pages both have forms on that are required to be completed. The forms are self explanatory.
-They have input fields and textareas that are set with min-length and max-length classes.
+**Forms:** Code from Bootstrap. The Search Bar, Register and Log In pages all use forms and require the user to input data, these forms are self explanatory.
+        
+These forms have input fields and textareas that are set with min-length and max-length classes.......
 
-**Icons:** Font Awesome icons are used on the form fields to provide instructions aswell as for design, the font awesome kit is used in the code. 
+**Icons:** Font Awesome icons are used throughout the site, account, basket and form fields to provide image instructions aswell as for design, the font awesome kit is used in the code. 
 
-**Images:** Vibrant images are used in the design. Selected images provide an idea of the product on offer.
+**Images:** Vibrant images are used in the design. Selected images provide an idea of the product on offer if you buy a subscription.
 
-**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' to redirect users to an alternative area dependent on their next wanted action.
+**Search Bar:** Have a 'Search' bar, so users can search for specific items using key words.
 
-**Search Bar:** Have a 'Search' bar, so users can search for specific recipe using key words.
-
-**Footer:** The footer provides a clear indication of the end of the page.
-
-**Social Media Links:** BouquetBlooms has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
-
-**Copyright:** Copyright logo - hosts the website owners own work.
 
 ########################################
 
@@ -229,21 +216,34 @@ Flash messages are also used for confirming a recipe has been added, edited and 
 
 **Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
 
+**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' to redirect users to an alternative area dependent on their next wanted action.
+
+**Footer:** The footer provides a clear indication of the end of the page.
+
+**Social Media Links:** BouquetnBlooms has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
+
+
+############################################
+
+**Copyright:** Copyright logo - hosts the website owners own work.
+
+
+
 ############################################
 
 ### Future Features
 
-BouquetBlooms - Future features could include:
+BouquetnBlooms - Future features could include:
 
 - Having a larger database of subscription packages for guest users to view and purchase.
-- The subscriptions could be seasonal or weekly, have different price points.
-- User profile to be created.
-- Have a logo, that takes the BouquetBlooms text into something more memorable.
+- The subscriptions could be seasonal or weekly, have products with different price points.
+- User profile to be created.......
+- Have a logo, that adds to the BouquetnBlooms text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
-- A review score of the products.
+- A review score of the subscriptions.
 - Feedback section to provide users with feedback on the sites product and services.
 - Forgotten password feature, so passwords can be reset.
-- A blog that gives advise and learnings on floristry.
+- A blog that gives advise on how to care for your product and offer lessons on floristry.
 - A messenger area where registered users can chat to a company employee live on the site.
 - Expand the e commerce shop where users could order one time products and merchandise.
 
@@ -345,7 +345,8 @@ Most errors where fixed except those of which the developer did not understand f
 
 SECRET KEY - During development the SECRET_KEY was accidently pushed to GitHub. The developer did not realise Django automatically
 creates this and therefore pushed the code. On receiving the GitGuardian email the error was realized and a new env.py file was created
-and a new Django SECRET_KEY added. However in the git commit history there is no confirmation code was pushed here as the next commit states *'index.html block content code added'*
+and a new Django SECRET_KEY added. 
+....................However in the git commit history there is no confirmation code was pushed here as the next commit states *'index.html block content code added'*
 Something for the developer to note for future 'all major changes and bug fixes to be commited and pushed for reference'.
 
 #### Issue 3
@@ -600,11 +601,21 @@ ensure something was submitted.
 
 [Code Institute](https://codeinstitute.net/) Tutor Support for assistance when facing difficulties.
 
+
 The developer's abilities where tested during the development of this project.
-2020 has been a strange and tough year, the developer tried hard to stay on track with study and submissions as well as working full time, over and above the 
-normal working days throughout the year. Unfortunatley time and health tookover.
-Therefore ms4 project was created with minimum time left before submission date and the developers subscription ended. Unfortunately no additional extentions where allowed.
-Therefore apologies for the basic and unfunished BouquetBlooms project submission, however it was decided to submit something than nothing.
+2020 has been a strange and tough year, the developer tried hard to stay on track with study and all project submissions as 
+well as working full time, over and above the normal working days throughout the year. Unfortunatley time and health tookover.
+Therefore the ms4 project was created with minimum time left before submission date and the developers subscription ended.
+Unfortunately no additional extentions were allowed.
+
+The developer can only apologies for the basic and unfunished BouquetnBlooms project submission, however it was decided to submit something rather than nothing.
+
+The developer has tried to incorporate as much of the project criteria as possible in the time left to create, to show there is an understanding there of the requirements of full stack implementation.
+For quickness and ease to have something for submission the sites design is directly copied from the Boutique_Ado mini project from [Code Institute](https://codeinstitute.net/), 
+however there are a few style tweaks and differences to try to make the site more individual and of course the product and subscription is completley different to that of Boutique_Ado.
+
+Finally and again for quickenss the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it for this project. 
+This can be seen in the commit history. 
 
 
 *Created for education purposes only*
