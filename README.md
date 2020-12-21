@@ -76,8 +76,8 @@ As a registered user I want to:
  - be able to add services to my basket.
  - review the services in my basket before purchasing.
  - safe and secure area where I can add confidential data and payment details.
- - recieve and email when i've purchased something.
- - be able to cancel a subsription if I change my mind.
+ - receive and email when I’ve purchased something.
+ - be able to cancel a subsrciption if I change my mind.
  - be notified of all my interactive actions.
 
 ### Admin User
@@ -117,12 +117,12 @@ The website owner would like the website design to:
 - Users who discover BouquetnBlooms, love flowers and are excited to use the service.
 - BouquetnBlooms has the potential to become an excellent revenue generating business site. 
 - Adding additional features (blog, client reviews for example) and marketing the site well could mean BouquetnBlooms could generate even more revenues.
-- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetnBlooms overs just subscriptions. 
+- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetnBlooms over just subscriptions. 
 
 
 ### Scope 
 
-- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetnBloom in any of the catergories.
+- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetnBlooms in any of the categories.
 - The database of choice to build with was ...............
 - It was scoped to provide ease of use.
 - It has minimal pages, however must it must house a home page, registration page, log in page, log out page and various category pages.
@@ -140,7 +140,7 @@ The website owner would like the website design to:
 - The Register page has a basic registration form with a button and a link to login if already registered.
 - The Login page has a basic login form with a button and a link to register if not already a member. 
 - Once logged in the Login page opens a Profile page, this shows a 'Welcome Back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Pages.
-- If logged in, a user can see all .............. supscriptions on offer, with functionality to 'edit' or 'delete'.............
+- If logged in, a user can see all .............. subscriptions on offer, with functionality to 'edit' or 'delete'.............
 
 - Finally the Log Out page displays, a 'You have been logged out message' and the returns to the Log In page view.
 
@@ -171,9 +171,9 @@ Front-end visuals where based on:
  - Soft pastel colours in wallpapers.
  - Vibrant and professional flower and bouquet images.
  - Enticing and positive text.
- - It is anticipated that the user would feel happy and positive on landing on the site and feel they wanted to purchase something even if that wasnt their intention.
+ - It is anticipated that the user would feel happy and positive on landing on the site and feel they wanted to purchase something even if that wasn't their intention.
 
-The typography colours and fonts where important to promote a calming effect but with a tempting feel good reaction that made the want to fullfil the sites output fully.
+The typography colours and fonts where important to promote a calming effect but with a tempting feel good reaction that made the want to fulfil the sites output fully.
 With vibrant flower images in all colours the sites aim was to incorporate the many different seasonal blooms on offer into its design. 
 
 BouquetnBlooms chose a simplistic design with whitespace so to not overpower the user.
@@ -267,7 +267,7 @@ BouquetnBlooms - Future features could include:
     - A web application library in Flask that was used to for secure authentication using password hashing.
 
 - [Bulma](https://bulma.io/)
-    - This framework was used for enable font awesone icons to be consistant and centred throughout.
+    - This framework was used for enable Font Awesome icons to be consitant and centred throughout.
 
 - [Bootstrap](https://getbootstrap.com/)
   - Researching carousel functionality, although wasn't used in the project.
@@ -327,18 +327,18 @@ Code was validated for best practice.
    - Pep8 Compliance
 
 Below shows some tests undertaken during development and issues, bugs and validation errors found. Also how if possible the issues were rectified.
-Some issues and errors where not rectified, due to either lack of developer knowledge or due to time constraints for additional study of documentation and/or more testing.
+Some issues and errors were not rectified, due to either lack of developer knowledge or due to time constraints for additional study of documentation and/or more testing.
 
 #### Test 1
 
 The site was developed using Django. During creation various tests were used to ensure the site was built correctly.
 - All Auth
-    All Auth email account autentication was tested by using the word 'success' temporarily placed in the settings.py file.
+    All Auth email account authentication was tested by using the word 'success' temporarily placed in the settings.py file.
     The code **LOGIN_REDIRECT_URL = '/success'** was used.
 
     Open project using **python3 manage.py runserver**
     This shows a 404 page not found error
-    In brower type **/accounts/login** to the end of the gitpod url navigate to the email of a superuser we created previously
+    In browser type **/accounts/login** to the end of the gitpod url navigate to the email of a superuser we created previously
     Enter superuser credentials, sign in - this returns a page asking for email verification
     This confirms 'allauth' is working as emails are required to be confirmed in order to log in
 
@@ -370,31 +370,27 @@ Most errors where fixed except those of which the developer did not understand f
 SECRET KEY - During development the SECRET_KEY was accidently pushed to GitHub. The developer did not realise Django automatically
 creates this and therefore pushed the code. On receiving the GitGuardian email the error was realized and a new env.py file was created
 and a new Django SECRET_KEY added. 
-....................However in the git commit history there is no confirmation code was pushed here as the next commit states *'index.html block content code added'*
-Something for the developer to note for future 'all major changes and bug fixes to be commited and pushed for reference'.
+However in the git commit history (20th Dec) there is no confirmation code was pushed here as the next commit is on the 21st Dec.
+Something for the developer to note for future *'all major changes and bug fixes to be commited and pushed for reference'*.
 
 #### Issue 3
+
+After adding base.html code it was realised the site pulled everything on the nav header to the left.
+It was found a '</div>' hadnt not been removed on the 'header nav with title' section on the send line - with the row.
+
+
+#### Issue 4
 
 When it came to adding datasets for the project it was advised to use [Kaggle](https://www.kaggle.com/).
 However when researching and trying to download there was an error on the site *too many requests*. Reading through the documentation and forums it seems this is a 
 known error. The developer requested advise from Code Institute on this matter to assist in moving forward with getting a dataset for the project.
 
-#### Issue 4
-
-During development the Gitpod terminal offered a warning. Advising that it was working with pip v20.2.4 and there was a new version and recommends and upgrade.
-The developer followed the on terminal instructions and upgraded to v20.3.3.
-
-
 #### Issue 5
-
-At one point during development Python advised to install [Pillow](https://pillow.readthedocs.io/en/stable/). The developer did not have any knowledge of this imaging library.
-The documentation was reviewed and the library was installed in the project.
 
 #### Issue 6
 
-It was found during development that the site definitely needed more pages adding. The initial four created an inception and wireframing wasn't going to be enough. 
-This was to allow for guest users to see more than just the home page and register pages. It was realised the guest user needed to be enticed more. Therefore the Highlights page was created.
-Furthermore the registered user required a profile page for when they logged in, and an add recipe, edit recipe and logout page. All additional pages have been created and are suitable for its purpose. 
+#### Issue 7
+
 
 ### Validation sites
 
@@ -546,8 +542,8 @@ Personal credits go out to the following people:
 
 Tutor Support
 - Igor from tutor support who clarified issues regarding Secret key errors.
-- Scott for totor support for assisting in follow up questions to Igor, also pointing me in the direction of Gitpod variable section.
-
+- Scott from tutor support for assisting in follow up questions to Igor, also pointing me in the direction of Gitpod variable section.
+- Samantha from tutor support for confirming the data set can be done manaually as I was having difficulties getting a data set from [Kaggle](https://www.kaggle.com/)
 <hr>
 
 
@@ -628,17 +624,17 @@ ensure something was submitted.
 
 The developer's abilities where tested during the development of this project.
 2020 has been a strange and tough year, the developer tried hard to stay on track with study and all project submissions as 
-well as working full time, over and above the normal working days throughout the year. Unfortunatley time and health tookover.
+well as working full time, over and above the normal working days throughout the year. Unfortunately time and health tookover.
 Therefore the ms4 project was created with minimum time left before submission date and the developers subscription ended.
-Unfortunately no additional extentions were allowed.
+A small extension was allowed for by code institute.
 
-The developer can only apologies for the basic and unfunished BouquetnBlooms project submission, however it was decided to submit something rather than nothing.
+The developer can only apologies for the basic and unfinished BouquetnBlooms project submission, however it was decided to submit something rather than nothing.
 
 The developer has tried to incorporate as much of the project criteria as possible in the time left to create, to show there is an understanding there of the requirements of full stack implementation.
 For quickness and ease to have something for submission the sites design is directly copied from the Boutique_Ado mini project from [Code Institute](https://codeinstitute.net/), 
-however there are a few style tweaks and differences to try to make the site more individual and of course the product and subscription is completley different to that of Boutique_Ado.
+however there are a few style tweaks and differences to try to make the site more individual and of course the product and subscription is completely different to that of Boutique_Ado.
 
-Finally and again for quickenss the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it for this project. 
+Finally and again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it for this project. 
 This can be seen in the commit history. 
 
 
