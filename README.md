@@ -315,7 +315,7 @@ BouquetnBlooms - Future features could include:
 ### Testing
 
 Manual Testing was undertaken during the creation of this site. 
-Testing included tests on various devices for responsiveness and UX aswell as testing code for bugs.
+Testing included tests with in Django, on various devices for responsiveness and UX aswell as testing code for bugs.
 Code was validated for best practice.
 
  - Validation sites used:
@@ -323,8 +323,29 @@ Code was validated for best practice.
    - Jshint
    - Pep8 Compliance
 
-Below highlights the main issues, bugs and validation errors found during the development and how if possible the issues were rectified.
-Some errors where not rectified, this was due to either lack of developer knowledge or due to time constraints for further reading of validation documentation and/or testing.
+Below shows some tests undertaken during development and issues, bugs and validation errors found. Also how if possible the issues were rectified.
+Some issues and errors where not rectified, due to either lack of developer knowledge or due to time constraints for additional study of documentation and/or more testing.
+
+#### Test 1
+
+The site was developed using Django. During creation various tests were used to ensure the site was built correctly.
+- All Auth
+    All Auth email account autentication was tested by using the word 'success' temporarily placed in the settings.py file.
+    The code **LOGIN_REDIRECT_URL = '/success'** was used.
+
+    Open project using **python3 manage.py runserver**
+    This shows a 404 page not found error
+    In brower type **/accounts/login** to the end of the gitpod url navigate to the email of a superuser we created previously
+    Enter superuser credentials, sign in - this returns a page asking for email verification
+    This confirms 'allauth' is working as emails are required to be confirmed in order to log in
+
+    To test further some amendments were made to Django Admin, and the test was performed again 
+    In browser type **/accounts/login** to the end of the gitpod url navigate to the email of a superuser we created previously
+    Enter superuser credentials, sign in - this returns a page asking for email verification
+    As expected we get a 404 page not found, however this time in the browser we are redirected to **/success** url this confirming 
+    our All Auth login system redirects back to the login redirect url in **settings.py**
+    Which confirms that All Auth authentication is working properly.
+    
 
 
 #### Issue 1
