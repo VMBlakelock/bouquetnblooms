@@ -266,8 +266,11 @@ BouquetnBlooms - Future features could include:
 - [Werkzeug](https://palletsprojects.com/p/werkzeug/)
     - A web application library in Flask that was used to for secure authentication using password hashing.
 
+- [Bulma](https://bulma.io/)
+    - This framework was used for enable font awesone icons to be consistant and centred throughout.
+
 - [Bootstrap](https://getbootstrap.com/)
-    - A web based front-end framework that assists in responsiveness and styling that was used throughout the project.
+  - Researching carousel functionality, although wasn't used in the project.
 
 - [JQuery](https://jquery.com/)
     - The JavaScript library used within the Materialize framework.
