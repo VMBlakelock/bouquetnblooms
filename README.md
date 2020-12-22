@@ -2,9 +2,9 @@
 
 <img src="static/images/mock-up-responsive.jpg">
 
-# BouquetnBlooms
+# Bouquet'N'Blooms
 
-*Subscribe to have fresh BouquetnBlooms everyday*
+*Subscribe to have fresh Bouquet'N'Blooms everyday*
 
 *Deployed to [Heroku](https://flask-saute-and-skewers.herokuapp.com/) and stored in [Github](https://github.com/)*
 
@@ -42,7 +42,7 @@ Technologies to be used in the project are HTML/CSS/Javascript/Python3 and Djang
 
 ### Purpose
 
-BouquetnBlooms is a floristry website in which users can subscribe to have fresh bouquets of flowers delivered to them monthly.
+Bouquet'N'Blooms is a floristry website in which users can subscribe to have fresh bouquets of flowers delivered to them monthly.
 
 All users to the site will see the websites services. However only registered users can subscribe and order.
 
@@ -63,7 +63,7 @@ As a guest user I want to:
  - find a navigation bar that links to other pages when clicked. 
  - understand the sites purpose upon landing.
  - be able to view the sites basic offerings.
- - be able to click social media icons to link out to other BouquetnBlooms pages.
+ - be able to click social media icons to link out to other Bouquet'N'Blooms pages.
  - have the option to register to the site to be able to interact with the site, see more and make a purchase.
 
 ### Registered Account
@@ -109,20 +109,20 @@ The website owner would like the website design to:
 
 ### Strategy
 
-- BouquetnBlooms is an e commerce website. It allows users to purchase a subscription. 
+- Bouquet'N'Blooms is an e commerce website. It allows users to purchase a subscription. 
 - The subscription is a one time payment and the subscription is then dispensed by the retailer.
 - The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and uses Django. 
 - The project uses a ...................... database. 
 - There is a clear brand to the site that draws users and entices further interaction.
 - Users who discover BouquetnBlooms, love flowers and are excited to use the service.
 - BouquetnBlooms has the potential to become an excellent revenue generating business site. 
-- Adding additional features (blog, client reviews for example) and marketing the site well could mean BouquetnBlooms could generate even more revenues.
-- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as BouquetnBlooms over just subscriptions. 
+- Adding additional features (blog, client reviews for example) and marketing the site well could mean Bouquet'N'Blooms could generate even more revenues.
+- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as Bouquet'N'Blooms over just subscriptions. 
 
 
 ### Scope 
 
-- The site was developed with the intention of allowing users to subscribe and purchase a monthly BouquetnBlooms in any of the categories.
+- The site was developed with the intention of allowing users to subscribe and purchase a monthly Bouquet'N'Blooms in any of the categories.
 - The database of choice to build with was ...............
 - It was scoped to provide ease of use.
 - It has minimal pages, however must it must house a home page, registration page, log in page, log out page and various category pages.
@@ -220,7 +220,7 @@ Flash messages are also used for confirming a recipe has been added, edited and 
 
 **Footer:** The footer provides a clear indication of the end of the page.
 
-**Social Media Links:** BouquetnBlooms has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
+**Social Media Links:** Bouquet'N'Blooms has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
 
 
 ############################################
@@ -233,12 +233,12 @@ Flash messages are also used for confirming a recipe has been added, edited and 
 
 ### Future Features
 
-BouquetnBlooms - Future features could include:
+Bouquet'N'Blooms - Future features could include:
 
 - Having a larger database of subscription packages for guest users to view and purchase.
 - The subscriptions could be seasonal or weekly, have products with different price points.
 - User profile to be created.......
-- Have a logo, that adds to the BouquetnBlooms text into something more memorable.
+- Have a logo, that adds to the Bouquet'N'Blooms text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
 - A review score of the subscriptions.
 - Feedback section to provide users with feedback on the sites product and services.
@@ -367,7 +367,7 @@ Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template I
 - Errors with *'continuation line under-indented for visual indent'* was often showing up the developer had to review [Stackoverflow](https://stackoverflow.com/questions/15435811/what-is-pep8s-e128-continuation-line-under-indented-for-visual-indent/)
 to rectify this. 
 
-All other errors where fixed except those of which the developer did not understand fully to fix, for example - *'imported but unused'*.
+All other errors where fixed except those of which the developer did not understand fully or have time to investigate additionaldocumentation to fix, for example - *'imported but unused'* and *'Class 'Product' has no 'objects' member'*.
 
 #### Issue 2
 
@@ -632,14 +632,14 @@ ensure something was submitted.
 The developer's abilities where tested during the development of this project.
 2020 has been a strange and tough year, the developer tried hard to stay on track with study and all project submissions as 
 well as working full time, over and above the normal working days throughout the year. Unfortunately time and health tookover.
-Therefore the ms4 project was created with minimum time left before submission date and the developers subscription ended.
+Therefore the ms4 Bouquet'N'Blooms project was created with minimum time left before submission date and the developers subscription ended.
 A small extension was allowed for by code institute.
 
-The developer can only apologies for the basic and unfinished BouquetnBlooms project submission, however it was decided to submit something rather than nothing.
+The developer can only apologies for the basic and unfinished Bouquet'N'Blooms project submission, however it was decided to submit something rather than nothing.
 
 The developer has tried to incorporate as much of the project criteria as possible in the time left to create, to show there is an understanding there of the requirements of full stack implementation.
 For quickness and ease to have something for submission the sites design is directly copied from the Boutique_Ado mini project from [Code Institute](https://codeinstitute.net/), 
-however there are a few style tweaks and differences to try to make the site more individual and of course the product and subscription is completely different to that of Boutique_Ado.
+however there are a few style tweaks and differences to try to make the site more individual and of course the products and the fact this site sells subscriptions is therefore completely different to that of Boutique_Ado.
 
 Finally and again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it for this project. 
 This can be seen in the commit history. 
