@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Product
 
-# Create your views here.
+# product views
 
 
 def all_products(request):
