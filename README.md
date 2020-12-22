@@ -353,17 +353,21 @@ The site was developed using Django. During creation various tests were used to 
 
 #### Issue 1
 
-Issues with errors occurred when working on py files. I had to clear the errors Gitpod advised on. 
-Most errors due to the 2 line spacing rule and using the tab key instead of spaces and also not entering to a new line.
-Other errors included -*'lines being to long'* and *'Doctype must be declared'*.  
-In previous module for using Flask it was advised that it is acceptable for the *'Doctype must be declared'* to be left uncleared as this was 
-due to the linter Gitpod uses not understanding the template language Jinja. 
+Issues with errors occurred when working on py files. The developer had to clear the errors Gitpod advised on. 
+
+- Errors due to the 2 line spacing rule and using the tab key instead of spaces and also not entering to a new line.
+- Errors from -*'lines being to long'* and *'Doctype must be declared'*.  
+    In previous module for using Flask it was advised that it is acceptable for the *'Doctype must be declared'* to be left uncleared as this was 
+    due to the linter Gitpod uses not understanding the template language Jinja. Therefore these error remain.
 
 *When you save the file you might see a warning on the first line, 'Doctype must be declared first'. We can ignore this as the linter doesn't know how to properly read templating languages like Jinja*
 Video: Flask Mini-Project 20 | 01 - Putting The Basics In Place (1e - Template Inheritance) 
 [Code Institute](https://codeinstitute.net/)
 
-Most errors where fixed except those of which the developer did not understand fully for example - 'imported but unused'.
+- Errors with *'continuation line under-indented for visual indent'* was often showing up the developer had to review [Stackoverflow](https://stackoverflow.com/questions/15435811/what-is-pep8s-e128-continuation-line-under-indented-for-visual-indent/)
+to rectify this. 
+
+All other errors where fixed except those of which the developer did not understand fully to fix, for example - *'imported but unused'*.
 
 #### Issue 2
 
@@ -387,7 +391,8 @@ known error. The developer requested advise from Code Institute on this matter t
 
 #### Issue 5
 
-pillow-8.0.1 - when adding models
+At one point during development at the stage of creating models Python advised to install 'Pillow'. The developer did not have any knowledge of this imaging library, however as it was advised by Gitpod/Django the developer reviewed the documentation.
+After reviewing Pillow-8.0.1 - library was installed in the project.
 
 #### Issue 6
 
