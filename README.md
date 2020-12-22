@@ -387,6 +387,8 @@ known error. The developer requested advise from Code Institute on this matter t
 
 #### Issue 5
 
+pillow-8.0.1 - when adding models
+
 #### Issue 6
 
 #### Issue 7
