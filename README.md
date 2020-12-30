@@ -1,7 +1,5 @@
 
 
-<img src="static/images/mock-up-responsive.jpg">
-
 # Bouquet'N'Blooms
 
 *Amazing fresh Bouquet'N'Blooms for many an occasion*
@@ -153,7 +151,7 @@ The website owner would like the website design to:
   that there would be a 'Home', Register and Login page as well as a 'subscription' page as a main feature. This supscription feature wasnt implemented and due to time contraints the 
   developer dint get to add in the register or log in page.
 - It was found during development that by following the code institute example project there would be multiple pages of products.
-  These pages where not created in wireframe as they  where similar to the home page
+  These pages where not created in wireframe as they where similar to the home page.
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -204,10 +202,8 @@ BouquetnBlooms chose a simplistic design with whitespace so to not overpower the
 
 **Button:** Chosen from Bootstrap the buttons when clicked do something and confirm user actions. Buttons are big and small an of different colours and provide 'word' instruction. 
 
-**Forms:** Code from Bootstrap. The Search Bar, Register and Log In pages all use forms and require the user to input data, these forms are self explanatory.
+**Forms:** Code from Bootstrap. The Search Bar uses a form and requires the user to input data, this form is self explanatory.
         
-These forms have input fields and textareas that are set with min-length and max-length classes.......
-
 **Icons:** Font Awesome icons are used throughout the site, account, basket and form fields to provide image instructions aswell as for design, the font awesome kit is used in the code. 
 
 **Images:** Vibrant images are used in the design. Selected images provide an idea of the product on offer if you buy a subscription.
@@ -215,38 +211,18 @@ These forms have input fields and textareas that are set with min-length and max
 **Search Bar:** Have a 'Search' bar, so users can search for specific items using key words.
 
 
-########################################
-
-**Flash Messages:** Flash messages provide feedback to users. Users that have an unsuccessful login will receive the message "Incorrect Username and/or Password".
-The 'Registered users' will see, "Welcome, USERNAME" on login and on logging out user will receive the message "You have successfully logged out".
-Flash messages are also used for confirming a recipe has been added, edited and deleted.
-
-**Favourites Toggle:** A Favourites Toggle for the user to highlight if a recipe is a user favourite.
-
-**Hyperlinks:** There is a hyperlink on the 'Register page', 'Login page' to redirect users to an alternative area dependent on their next wanted action.
-
-**Footer:** The footer provides a clear indication of the end of the page.
-
-**Social Media Links:** Bouquet'N'Blooms has various Social Media accounts therefore icons for these are found in the footer that will direct to the social site.
-
-
-############################################
-
-**Copyright:** Copyright logo - hosts the website owners own work.
-
-
-
-############################################
-
 ### Future Features
 
 Bouquet'N'Blooms - Future features could include:
 
+- A footer was an initial requirement to provide a clear indication of the end of the page and house the location of HQ.
+- Social Media Links - Bouquet'N'Blooms would have various Social Media accounts in the real world therefore icons for these site need to be found in the footer that will direct to the social sites.
+- Copyright logo - hosts the website owners own work this was not added to the site.
 - Having a larger database of products.
 - Have the intended subscription page to provide packages for registered users to view and purchase.
 - The subscriptions could be monthly, weekly or seasonal.
 - All subscriptions as per the products have packages with different price points.
-- User profile to be created.......
+- User profile to be created. There is an icon for my account however this is not currently active.
 - Have a logo, that adds to the Bouquet'N'Blooms text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
 - A review score of the subscriptions.
@@ -285,8 +261,7 @@ Bouquet'N'Blooms - Future features could include:
     - The JavaScript library used within the Materialize framework.
 
 #### Database
-- [........](https://www................../)
-    - A document based database and the type of database used when developing this project
+- The project is created in Gitpod SQLLite due to not having time to deploy the project to Heroku.
 
 #### Text Editor
 - [Gitpod](https://gitpod.io/)
@@ -298,7 +273,7 @@ Bouquet'N'Blooms - Future features could include:
 
 #### Hosting Platform
 - [Heroku](https://https://dashboard.heroku.com/)
-    - The application platform used for the live deployed site.
+    - The application platform that was to be used for the live deployed site.
 
 - [Github](https://github.com/)
     - A repository store, used to house the sites repository.
@@ -312,10 +287,6 @@ Bouquet'N'Blooms - Future features could include:
 #### Font Awesome
 - [Font Awesome](https://fontawesome.com/)
     - Used for UX icons and getting 'kit' code.
-
-#### RandomKeygen
-- [RandomKeygen](https://www.randomKeygen.com/)
-  - Site to select a secure SECRET_KEY password.
 
 #### Validation sites
 - [W3C Markup Validation](https://validator.w3.org/)
@@ -404,81 +375,59 @@ It was decided to build the dataset via the Django admin.
 At one point during development at the stage of creating 'models', Python advised in the CLI to install 'Pillow'. The developer did not have any knowledge of this imaging library, however as it was advised by Gitpod/Python/Django the developer reviewed the documentation.
 After reviewing Pillow-8.0.1 - the library was installed in the project. The issue was rectified.
 
-#### Issue 6
-
-#### Issue 7
-
+It is noted and the developer is aware that there should have been more testing stages to the project however due to time constraints it wasnt possible to test further or document. 
 
 ### Validation sites
 
 - When validating the code for HTML and CSS using [W3C Markup Validation](https://validator.w3.org/), errors where found and some were rectified, rectified errors included simple code errors and typos.
-  However there were some errors the developer was unable to fix. Below shows a few examples.
-  
-  base.html
-  - x errors found
-  
-  Error: xxx.
-    At line x, column x   
+  However there were some errors the developer was unable to fix. 
+  Please click on the validator website and copy/paste in the base.html file for examples of left errors.
 
-
-- [Jshint](https://jshint.com/) for JS validation found error warnings, however many was of the same error. Unfortunately a fix wasn't implemented due to lack of understanding on how to resolve them and to time constraints. 
-  Here are the errors for highlight.html
-  - 4 errors found.
-
-  Expected a string and instead saw %.
-  Expected ':' and instead saw 'extends'.
-  Expected '}' and instead saw '%'.
-  Unrecoverable syntax error. (1% scanned).
+- [Jshint](https://jshint.com/) for JS validation found error warnings, however the error was referring to <doctype!>. Unfortunately a fix wasn't implemented due to lack of understanding on how to resolve them and to time constraints. 
+  Please click on the validator website and copy/paste in the base.html file for examples of left errors.
 
 - [PEP8](http://pep8online.com/) was used for testing Python errors.
-  There were many errors on most pages, mostly referencing tabs and indentation. Again due to time constraints these errors were not rectified.
-  Below are some common examples
+  There were a few errors in the code below are some common examples
     - missing whitespace around operator
     - trailing whitespace
-    - indentation contains tabs
-
+    - indentation contains 
+    
+    Again due to time constraints it was found at the last moment errors- mostly referencing line length being to long. these errors were not rectified.
+    Please click on the validator website and copy/paste in the settings.py file for examples of left errors.
 
 ### Browsers tested
 
 - Chrome: Using Google Developer Tools - Chrome was used for testing on Laptop, Tablet and Android devices.
+  All responsive - no issues.
 
 - Safari: Safari wasn't used for testing on an I phone or Mac, due to not having physical access to these type of devices. However they were viewed on Google Dev Tools.
 
 ### Devices tested
 
-On the final testing session the below devices where used to check if responsive, here are the outcomes.
+On the final testing session the below devices was used to check if responsive, here is the outcome and notes.
 
 Mobile:
-- Android - Samsung Galaxy A40 - Outcome: All is responsive.
-- Android - Samsung Galaxy A20 - Outcome: All is responsive.
-- Android - Samsung Galaxy S10 - Outcome: All is responsive.
+- No actual mobile device was tested on as the project is not deployed to Heroku.
 
 Laptop:
 - Toshiba Satellite C850 - Outcome: All is responsive.
-- HP Model I5 - Outcome: All is responsive.
+The site works well via Goolge Chrome on this device - No issues.
 
-The only responsive bug the developer found was on the [Techsini](https://techsini.com/multi-mockup/) - Responsive Mock up.
-On the mock up it shows on I pad that the footer is half way up the page, however in Google Dev Tools this is not the case.
-However due to not having an Apple Ipad to physically, it cannot be concluded the site is not responsive.   
 
 <hr>
 
 ## Evaluation
 
-- Overall the design and development of this site is suitable for its intended basic purpose, however not for the intened one.
+- Overall the design and development of this site is suitable for viewing and searching only.
 - It has basic requirements of a functional website and meets only some the project criteria.
 - Due to do external commitments and running out of time to continue to develop - many main features have been left out. The developer is aware of aspects that don't function as intended or are not added.        
-
-- Most of the user stories where met, with the exception of editing user content as an Admin User. In the future this can be looked into and implemented along with the option to delete or block user if required.
-
+- Most of the user stories where met, however the criteria of the project where not.
+  In the future these can be looked into and implemented to allow for a fully functional backend site.
 - Images on the site are not all suitable for use of selling a 'product'. Users want to receive what they see in the image on a site. In the future or in real life scenario the site would have
   professional photos of thier actual products. This is something that can be changed so it gives the site a better visual. For now some generic flower images were used. 
-- Many future features could be added to provide more interactive activity, functionality and imagery.................
+- Many future features could be added to provide more interactive activity, functionality and imagery.
 - Branch testing - No branch testing was undertaken, something that the developer was intending to do - however due to time contraints just got on with creating as much of the site as possible.
-- Manual Testing was undertaken and this was found to be successful. It is noted that there are still validation errors that would need to be looked into by the developer should there ahve been more time before submission.
-
-- [Werkzeug](https://palletsprojects.com/p/werkzeug/) was used in this project for authentication and secure passwords. This was new to the developer and was found to be interesting and a great tool to be aware of for future projects.
-
+- Minimal manual testing was undertaken and this was found to be successful. It is noted that there are still validation errors that would need to be looked into by the developer should there have been more time before submission.
 - The site was to have 4 pages initially but it was discovered early in development that more pages would be required.
 
 <hr>
@@ -488,13 +437,15 @@ However due to not having an Apple Ipad to physically, it cannot be concluded th
 
 #### Heroku:
 
-The project is deployed to Heroku. It uses the automatic deployment method via Github, using your Github repository.
-Below shows the steps to deploy on Heroku:
+The project should have been deployed to Heroku. It should use the automatic deployment method via Github, using your Github repository.
+It is not deployed due to errors and no time to rectify before submission.
+
+Below shows the steps the developer believes is required to deploy on Heroku:
 
 1. Heroku requires certain dependencies and applications to run our application. There we need to tell it what is required. 
    In the terminal type 
-   - $ pip3 freeze --local > requirements.txt
-   - $ echo web: python app.py > Procfile
+   - requirements.txt
+   - Procfile - web: gunicorn bouquetnblooms.wsgi:application
 2. Register on the Heroku website - [Heroku](https://www.heroku.com/) or Log in for existing users.
 3. From the dashboard click 'New' and 'Create new app'.
 4. Enter your unique 'App name' (Heroku practice is for it to be lowercase and to use hyphen (-) instead of spaces).
@@ -508,8 +459,8 @@ Below shows the steps to deploy on Heroku:
     - IP
     - PORT
     - SECRET_KEY
-    - MONGO_URI
-    - MONGO_DBNAME
+    - **database details** as the project did not get deployed the developer cannot comment on this requirement.
+    - **database URL** as the project did not get deployed the developer cannot comment on this requirement.
 
 10. Final step before we connect to Heroku is to push our new files 'requirements.txt' and 'Procfile' to the repository.
     Back in the terminal have a check of the workspace status, type: git status. this will show your new pending files.
@@ -547,7 +498,7 @@ If you want to run this project locally, we must clone the project.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type 'git clone' and paste the URL you copied.
 
-- Example: git clone  = https://github.com/VMBlakelock/saute-and-skewers-greekfood
+- Example: git clone  = https://github.com/VMBlakelock/bouquetnblooms
 
 6. Press Enter. Your local clone is now created.
 
