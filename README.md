@@ -4,7 +4,6 @@
 
 *Amazing fresh Bouquet'N'Blooms for many an occasion*
 
-*Deployed to [Heroku](https://flask-saute-and-skewers.herokuapp.com/) and stored in [Github](https://github.com/)*
 
 <hr>
 
@@ -439,6 +438,7 @@ The site works well via Goolge Chrome on this device - No issues.
 
 The project should have been deployed to Heroku. It should use the automatic deployment method via Github, using your Github repository.
 It is not deployed due to errors and no time to rectify before submission.
+*Deployed to [Heroku](https://django-bouquetnblooms.herokuapp.com/) and stored in [Github](https://github.com/)*
 
 Below shows the steps the developer believes is required to deploy on Heroku:
 
