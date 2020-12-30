@@ -112,11 +112,11 @@ The website owner would like the website design to:
 ### Strategy
 
 - Bouquet'N'Blooms is an e commerce website. It allows users to purchase flowers. 
-- The site features one required payment by the user, that is then dispensed by the retailer.
-- Initially the site was to have a main feature of a 'subcription' page where users could register for a monthly subscription
-  thus having fresh flowers delivered monthly after a one0time payment.
+- The site features one required payment by the user, the product is then dispensed by the retailer.
+- Initially the site was to have a main feature of a 'subscription' page where users could register for a monthly subscription
+  thus having fresh flowers delivered monthly after a one-time payment.
 - The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and uses Django. 
-- The project uses an 'sqlite' database. 
+- The project uses an 'sqlite' database initially, and it was hoped a postgress database via heroku. 
 - There is a clear brand to the site that draws users and entices further interaction.
 - Users who discover Bouquet'N'Blooms, love flowers and are excited to use the site and order.
 - Bouquet'N'Blooms has the potential to become an excellent revenue generating business site. 
@@ -129,10 +129,10 @@ The website owner would like the website design to:
 - The site was developed with the intention of allowing users to purchase Bouquet'N'Blooms products in any of the categories.
 - Its main feature was to have a subscription page where users could register and subscribe to the site thus have flowers delivered to them on a monthly basis.
   The subscription was to be available to registered users after a one-time payment.
-- The database of choice to build with was 'sqllite'.
-- It was scoped to provide ease of use.
-- It has minimal pages, however must it must house a home page, registration page, log in page, log out page and various category pages.
-- Have an app that allowed users to purchase from the site.
+- The database of choice to build with was 'sqllite' in the initial instance then onto Postgress via Heroku.
+- The project was scoped to provide ease of use.
+- It was to have minimal pages, however it must house a home page, registration page, log in page, log out page, various category pages and a shopping bag page.
+- Have various app installed that allowed users to manipulate the data and to eventually purchase from the site.
 - Be responsive on all devices.
 - Be visually appealing that incorporated the beauty of flowers and blooms in the front-end design.
 
@@ -141,22 +141,19 @@ The website owner would like the website design to:
 
 - Bouquet'N'Blooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
   Unfortunately during development not all user stories where met.
-- The home page, All Flowers, Flower Type, Occasion Flowers and Special Offer pages are designed identically each with the navbar, basket and account icons. 
-  This is so the user  is clear as to where they are on the site. The developer cannot advise on the structure of other pages that should be within the project as
+- The Home page, All Flowers, Flower Type, Occasion Flowers, Special Offer and Shopping Bag pages are designed identically each with the navbar, basket and account icons. 
+  This is so the user is clear as to where they are on the site. The developer cannot advise on the structure of other pages that should be within the project as
   time constraints these where not implemented.
-- The Home page has bold text that introduces the site and easily shows its features, also a 'banner' that advises of an offer that currenty is ongoing. 
-
-- The Register page has a basic registration form with a button and a link to login if already registered.
-- The Login page has a basic login form with a button and a link to register if not already a member. 
-- Once logged in the Login page opens a Profile page, this shows a 'Welcome Back' text, a few enticing words and a links to the 'Add Recipe' 'Highlights' 'Recipes' Pages.
-- If logged in, a user can see all .............. subscriptions on offer, with functionality to 'edit' or 'delete'.............
-
-- Finally the Log Out page displays, a 'You have been logged out message' and the returns to the Log In page view.
+- The site's main nav header has bold text that introduces the site and easily shows its features, also a 'banner' that advises of an offer that currenty is ongoing. 
+- The Shopping bag page shows users what is in thier bag - this feature is not fully functional at present.
 
 ### Skeleton
 
 - Four wireframes where created - the three main pages of the site and a subscription page. As it was initially planned
-  that there would be a 'subscription' page as a main feature. This wasnt carried out.
+  that there would be a 'Home', Register and Login page as well as a 'subscription' page as a main feature. This supscription feature wasnt implemented and due to time contraints the 
+  developer dint get to add in the register or log in page.
+- It was found during development that by following the code institute example project there would be multiple pages of products.
+  These pages where not created in wireframe as they  where similar to the home page
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
