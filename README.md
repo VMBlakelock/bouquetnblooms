@@ -4,7 +4,7 @@
 
 # Bouquet'N'Blooms
 
-*Subscribe to have fresh Bouquet'N'Blooms everyday*
+*Amazing fresh Bouquet'N'Blooms for many an occasion*
 
 *Deployed to [Heroku](https://flask-saute-and-skewers.herokuapp.com/) and stored in [Github](https://github.com/)*
 
@@ -29,7 +29,8 @@
 
 ## Introduction
 
-................................................
+Fresh flowers undoubtedly show love and provide that all important meaning. 
+Bouquet'N'Blooms will ensure fresh flowers will make the perfect addition to any occasion.
 
 <hr>
 
@@ -42,9 +43,9 @@ Technologies to be used in the project are HTML/CSS/Javascript/Python3 and Djang
 
 ### Purpose
 
-Bouquet'N'Blooms is a floristry website in which users can subscribe to have fresh bouquets of flowers delivered to them monthly.
+Bouquet'N'Blooms is a floristry website in which users can order fresh bouquets of flowers delivered directly to them.
 
-All users to the site will see the websites services. However only registered users can subscribe and order.
+All users to the site will see the websites products on offer. However only registered users can order.
 
 
 <hr>
@@ -62,7 +63,7 @@ As a guest user I want to:
  - navigate around the site easily.
  - find a navigation bar that links to other pages when clicked. 
  - understand the sites purpose upon landing.
- - be able to view the sites basic offerings.
+ - be able to view the sites offerings.
  - be able to click social media icons to link out to other Bouquet'N'Blooms pages.
  - have the option to register to the site to be able to interact with the site, see more and make a purchase.
 
@@ -73,18 +74,19 @@ As a registered user I want to:
  - log into the site easily.
  - log out successfully.
  - have buttons to click to login, log out and submit data.
- - be able to add services to my basket.
- - review the services in my basket before purchasing.
+ - be able to add products to my basket.
+ - review the products in my basket before purchasing.
  - safe and secure area where I can add confidential data and payment details.
- - receive and email when I’ve purchased something.
- - be able to cancel a subsrciption if I change my mind.
+ - receive an email when I’ve purchased something.
+ - be able to cancel an order if I change my mind.
  - be notified of all my interactive actions.
+ - Have the option to subscribe to the site and have a product delivered monthly.
 
 ### Admin User
 
 As an admin user I want to:
 - have full access to the site to ensure all content is viable.
-- have access to be able to add more subscription offers to the site.
+- have access to be able to add more products and offers to the site.
 - edit any content posted by me.
 
 
@@ -93,7 +95,7 @@ As an admin user I want to:
 The website owner would like users of the website to:
 -  Interact with the site.
 -  Enjoy the site.
--  Find the site easy to register to and purchase a subscription.
+-  Find the site easy to register to and purchase products.
 
 The website owner would like the website design to: 
 - be clean and crisp with visuals that are minimal and of soft colours yet with a striking bold balance.
@@ -109,33 +111,38 @@ The website owner would like the website design to:
 
 ### Strategy
 
-- Bouquet'N'Blooms is an e commerce website. It allows users to purchase a subscription. 
-- The subscription is a one time payment and the subscription is then dispensed by the retailer.
+- Bouquet'N'Blooms is an e commerce website. It allows users to purchase flowers. 
+- The site features one required payment by the user, that is then dispensed by the retailer.
+- Initially the site was to have a main feature of a 'subcription' page where users could register for a monthly subscription
+  thus having fresh flowers delivered monthly after a one0time payment.
 - The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and uses Django. 
-- The project uses a ...................... database. 
+- The project uses an 'sqlite' database. 
 - There is a clear brand to the site that draws users and entices further interaction.
-- Users who discover BouquetnBlooms, love flowers and are excited to use the service.
-- BouquetnBlooms has the potential to become an excellent revenue generating business site. 
-- Adding additional features (blog, client reviews for example) and marketing the site well could mean Bouquet'N'Blooms could generate even more revenues.
-- During research there were other sites found that had the same 'subscription' concept, most offering a full inventory of products where as Bouquet'N'Blooms over just subscriptions. 
+- Users who discover Bouquet'N'Blooms, love flowers and are excited to use the site and order.
+- Bouquet'N'Blooms has the potential to become an excellent revenue generating business site. 
+- Adding additional features (blog, client reviews  - for example) and marketing the site well could mean Bouquet'N'Blooms could generate even more revenues.
+- During research there were other sites found that had the same concept, most offering a full inventory of products and subscriptions, where as Bouquet'N'Blooms offers only purchases currently. 
 
 
 ### Scope 
 
-- The site was developed with the intention of allowing users to subscribe and purchase a monthly Bouquet'N'Blooms in any of the categories.
-- The database of choice to build with was ...............
+- The site was developed with the intention of allowing users to purchase Bouquet'N'Blooms products in any of the categories.
+- Its main feature was to have a subscription page where users could register and subscribe to the site thus have flowers delivered to them on a monthly basis.
+  The subscription was to be available to registered users after a one-time payment.
+- The database of choice to build with was 'sqllite'.
 - It was scoped to provide ease of use.
 - It has minimal pages, however must it must house a home page, registration page, log in page, log out page and various category pages.
-- Have and app that allowed users to purchase from the site.
+- Have an app that allowed users to purchase from the site.
 - Be responsive on all devices.
 - Be visually appealing that incorporated the beauty of flowers and blooms in the front-end design.
 
 
 ### Structure
 
-- BouquetnBlooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
+- Bouquet'N'Blooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
+  Unfortunately during development not all user stories where met.
 - All pages are designed identically each with the navbar, basket and account............
-- The Home page has a banner that advises of an offer and bold text that introduces the site. 
+- The Home page has bold text that introduces the site and easily shows its features, also a 'banner' that advises of an offer that currenty is ongoing. 
 
 - The Register page has a basic registration form with a button and a link to login if already registered.
 - The Login page has a basic login form with a button and a link to register if not already a member. 
@@ -146,7 +153,8 @@ The website owner would like the website design to:
 
 ### Skeleton
 
-- Four wireframes where created - the three main pages of the site and a subscription page.....
+- Four wireframes where created - the three main pages of the site and a subscription page. As it was initially planned
+  that there would be a 'subscription' page as a main feature. This wasnt carried out.
 - These Desktop and Mobile wireframes demonstrate the basic design and structure of the site and the required elements each page needed. 
 - All wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/).
 
@@ -235,8 +243,10 @@ Flash messages are also used for confirming a recipe has been added, edited and 
 
 Bouquet'N'Blooms - Future features could include:
 
-- Having a larger database of subscription packages for guest users to view and purchase.
-- The subscriptions could be seasonal or weekly, have products with different price points.
+- Having a larger database of products.
+- Have the intended subscription page to provide packages for registered users to view and purchase.
+- The subscriptions could be monthly, weekly or seasonal.
+- All subscriptions as per the products have packages with different price points.
 - User profile to be created.......
 - Have a logo, that adds to the Bouquet'N'Blooms text into something more memorable.
 - Add a favicon so the sites logo is displayed in the browser tab for ease of navigation.
@@ -326,7 +336,7 @@ Code was validated for best practice.
    - Jshint
    - Pep8 Compliance
 
-Below shows some tests undertaken during development and issues, bugs and validation errors found. Also how if possible the issues were rectified.
+Below shows some tests undertaken during development and the issues, bugs and validation errors found. Also how if possible the issues were rectified.
 Some issues and errors were not rectified, due to either lack of developer knowledge or due to time constraints for additional study of documentation and/or more testing.
 
 #### Test 1
@@ -388,11 +398,12 @@ It was found a '</div>' hadnt not been removed on the 'header nav with title' se
 When it came to adding datasets for the project it was advised to use [Kaggle](https://www.kaggle.com/).
 However when researching and trying to download there was an error on the site *too many requests*. Reading through the documentation and forums it seems this is a 
 known error. The developer requested advise from Code Institute on this matter to assist in moving forward with getting a dataset for the project.
+It was decided to build the dataset via the Django admin.
 
 #### Issue 5
 
-At one point during development at the stage of creating models Python advised to install 'Pillow'. The developer did not have any knowledge of this imaging library, however as it was advised by Gitpod/Django the developer reviewed the documentation.
-After reviewing Pillow-8.0.1 - library was installed in the project.
+At one point during development at the stage of creating 'models', Python advised in the CLI to install 'Pillow'. The developer did not have any knowledge of this imaging library, however as it was advised by Gitpod/Python/Django the developer reviewed the documentation.
+After reviewing Pillow-8.0.1 - the library was installed in the project. The issue was rectified.
 
 #### Issue 6
 
@@ -455,19 +466,21 @@ However due to not having an Apple Ipad to physically, it cannot be concluded th
 
 ## Evaluation
 
-- Overall the design and development of this site is suitable for its intended purpose.
-- It has all the basic requirements of a functional website and meets CRUD functionality of the project criteria.
-- Due to do external commitments additional features have been left out. The developer is aware of aspects that don't function as intended or are not yet could be added.        
+- Overall the design and development of this site is suitable for its intended basic purpose, however not for the intened one.
+- It has basic requirements of a functional website and meets only some the project criteria.
+- Due to do external commitments and running out of time to continue to develop - many main features have been left out. The developer is aware of aspects that don't function as intended or are not added.        
+
 - Most of the user stories where met, with the exception of editing user content as an Admin User. In the future this can be looked into and implemented along with the option to delete or block user if required.
-- Images on the site are not all suitable for the sites look. It was found to be an issue to find a good selection of free stock professional images of Greek Cuisine.
-  This is something that can be changed so it gives the site a better visual. For now some Mediterranean images were used. 
-- Many future features could be added to provide more interactive activity, functionality and imagery.
-- Branch testing - No branch testing was undertaken, something that the developer was intending to do - however was just overlooked.
-- Manual Testing was undertaken and this was found to be successful. It is noted that there are many validation errors that needs to be looked into by the developer at a later date.
+
+- Images on the site are not all suitable for use of selling a 'product'. Users want to receive what they see in the image on a site. In the future or in real life scenario the site would have
+  professional photos of thier actual products. This is something that can be changed so it gives the site a better visual. For now some generic flower images were used. 
+- Many future features could be added to provide more interactive activity, functionality and imagery.................
+- Branch testing - No branch testing was undertaken, something that the developer was intending to do - however due to time contraints just got on with creating as much of the site as possible.
+- Manual Testing was undertaken and this was found to be successful. It is noted that there are still validation errors that would need to be looked into by the developer should there ahve been more time before submission.
+
 - [Werkzeug](https://palletsprojects.com/p/werkzeug/) was used in this project for authentication and secure passwords. This was new to the developer and was found to be interesting and a great tool to be aware of for future projects.
-- Some front-end design changes were made during the build due to varying factors:
-    - Materialize image carousel, looked good and fitted the sites initial idea but didnt load well. Also the developer found it difficult to change the prebuilt images and the image links kept breaking.
-    - The site was to have 4 pages initially but it was discovered early in development that more pages would be required.
+
+- The site was to have 4 pages initially but it was discovered early in development that more pages would be required.
 
 <hr>
 
@@ -639,10 +652,10 @@ The developer can only apologies for the basic and unfinished Bouquet'N'Blooms p
 
 The developer has tried to incorporate as much of the project criteria as possible in the time left to create, to show there is an understanding there of the requirements of full stack implementation.
 For quickness and ease to have something for submission the sites design is directly copied from the Boutique_Ado mini project from [Code Institute](https://codeinstitute.net/), 
-however there are a few style tweaks and differences to try to make the site more individual and of course the products and the fact this site sells subscriptions is therefore completely different to that of Boutique_Ado.
+however there are a few style tweaks and differences to try to make the site more individual and of course the products that are on offer.
 
-Finally and again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it for this project. 
-This can be seen in the commit history. 
+Finally and again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it as the project was developed. 
+This can be seen in the beginning of the commit history. 
 
 
 *Created for education purposes only*
