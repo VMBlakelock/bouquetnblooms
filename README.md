@@ -141,7 +141,9 @@ The website owner would like the website design to:
 
 - Bouquet'N'Blooms site structure was created from the UX user stories - therefore developed with pages that were required to enable users to sign up and add data.
   Unfortunately during development not all user stories where met.
-- All pages are designed identically each with the navbar, basket and account............
+- The home page, All Flowers, Flower Type, Occasion Flowers and Special Offer pages are designed identically each with the navbar, basket and account icons. 
+  This is so the user  is clear as to where they are on the site. The developer cannot advise on the structure of other pages that should be within the project as
+  time constraints these where not implemented.
 - The Home page has bold text that introduces the site and easily shows its features, also a 'banner' that advises of an offer that currenty is ongoing. 
 
 - The Register page has a basic registration form with a button and a link to login if already registered.
