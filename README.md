@@ -376,6 +376,23 @@ After reviewing Pillow-8.0.1 - the library was installed in the project. The iss
 
 It is noted and the developer is aware that there should have been more testing stages to the project however due to time constraints it wasnt possible to test further or document. 
 
+#### Issue 6 
+
+When deplying the project this error was found. 
+Error:
+gitpod /workspace/bouquetnblooms $ heroku config:set DISABLE_COLLECT=1 --app django-bouquetnblooms
+Setting DISABLE_COLLECT and restarting ⬢ django-bouquetnblooms... !
+ ▸    Invalid credentials provided.
+
+This is now rectified by adding in DISABLE_COLLECT=1 manually to Heroku config vars.
+However the site no longer has UX.
+
+#### Issue 7
+
+After rectifying issue 6  - the developer went back to gitpod to open up the project and realised the projects also has no UX.
+Please use git commit history from the 30th Dec - updated Readme to see working project with UX.
+
+
 ### Validation sites
 
 - When validating the code for HTML and CSS using [W3C Markup Validation](https://validator.w3.org/), errors where found and some were rectified, rectified errors included simple code errors and typos.
@@ -436,20 +453,11 @@ The site works well via Goolge Chrome on this device - No issues.
 
 #### Heroku:
 
-The project should have been deployed to Heroku. It should use the automatic deployment method via Github, using your Github repository.
-
-Note: The project is not deployed due to errors and no time to rectify before submission.
-Error:
-gitpod /workspace/bouquetnblooms $ heroku config:set DISABLE_COLLECT=1 --app django-bouquetnblooms
-Setting DISABLE_COLLECT and restarting ⬢ django-bouquetnblooms... !
- ▸    Invalid credentials provided.
-
-Therefore nt able to get past this part to continue.
-
+The project is deployed to Heroku. It uses the automatic deployment method via Github, using your Github repository.
 
 *Deployed to [Heroku](https://django-bouquetnblooms.herokuapp.com/) and stored in [Github](https://github.com/)*
 
-Below shows the steps the developer believes is required to deploy on Heroku:
+Below shows the steps required to deploy on Heroku:
 
 1. Heroku requires certain dependencies and applications to run our application. There we need to tell it what is required. 
    In the terminal type - requirements.txt
@@ -606,14 +614,17 @@ well as working full time, over and above the normal working days throughout the
 Therefore the ms4 Bouquet'N'Blooms project was created with minimum time left before submission date and the developers subscription ended.
 A small extension was allowed for by code institute.
 
-The developer can only apologies for the basic and unfinished Bouquet'N'Blooms project submission, however it was decided to submit something rather than nothing.
 
 The developer has tried to incorporate as much of the project criteria as possible in the time left to create, to show there is an understanding there of the requirements of full stack implementation.
 For quickness and ease to have something for submission the sites design is directly copied from the Boutique_Ado mini project from [Code Institute](https://codeinstitute.net/), 
-however there are a few style tweaks and differences to try to make the site more individual and of course the products that are on offer.
+however there are a few style tweaks and differences to try to make the site more individual and of course the products that are on offer are different.
 
-Finally and again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it as the project was developed. 
+Again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it as the project was developed. 
 This can be seen in the beginning of the commit history. 
+
+Finally the developer can only apologies for the basic and unfinished Bouquet'N'Blooms project submission, however it was decided to submit something rather than nothing.
+In the last stages of development, the project was running on gitpod locally with full UX, however as explained in Section 'Testing' - Issue 7 after deploying to Heroku all UX 
+was lost.
 
 
 *Created for education purposes only*
