@@ -437,7 +437,16 @@ The site works well via Goolge Chrome on this device - No issues.
 #### Heroku:
 
 The project should have been deployed to Heroku. It should use the automatic deployment method via Github, using your Github repository.
-It is not deployed due to errors and no time to rectify before submission.
+
+Note: The project is not deployed due to errors and no time to rectify before submission.
+Error:
+gitpod /workspace/bouquetnblooms $ heroku config:set DISABLE_COLLECT=1 --app django-bouquetnblooms
+Setting DISABLE_COLLECT and restarting ⬢ django-bouquetnblooms... !
+ ▸    Invalid credentials provided.
+
+Therefore nt able to get past this part to continue.
+
+
 *Deployed to [Heroku](https://django-bouquetnblooms.herokuapp.com/) and stored in [Github](https://github.com/)*
 
 Below shows the steps the developer believes is required to deploy on Heroku:
