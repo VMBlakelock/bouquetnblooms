@@ -113,7 +113,7 @@ The website owner would like the website design to:
 - Initially the site was to have a main feature of a 'subscription' page where users could register for a monthly subscription
   thus having fresh flowers delivered monthly after a one-time payment.
 - The site features the 3 core languages of web development HTML, CSS and Javascript, as well as Python and uses Django. 
-- The project uses an 'sqlite' database initially, and it was hoped a postgress database via heroku. 
+- The project uses an 'sqlite' database initially, and a postgress database via heroku. 
 - There is a clear brand to the site that draws users and entices further interaction.
 - Users who discover Bouquet'N'Blooms, love flowers and are excited to use the site and order.
 - Bouquet'N'Blooms has the potential to become an excellent revenue generating business site. 
@@ -247,9 +247,6 @@ Bouquet'N'Blooms - Future features could include:
 - [Django](https://www.djangoproject.com/)
     - The web application framework used in the project to allow fast and easy development of sites.
 
-- [Werkzeug](https://palletsprojects.com/p/werkzeug/)
-    - A web application library in Flask that was used to for secure authentication using password hashing.
-
 - [Bulma](https://bulma.io/)
     - This framework was used for enable Font Awesome icons to be consitant and centred throughout.
 
@@ -260,7 +257,7 @@ Bouquet'N'Blooms - Future features could include:
     - The JavaScript library used within the Materialize framework.
 
 #### Database
-- The project is created in Gitpod SQLLite due to not having time to deploy the project to Heroku.
+    - The project is created in Gitpod SQLLite initially then deployed to Heroku.
 
 #### Text Editor
 - [Gitpod](https://gitpod.io/)
@@ -297,7 +294,8 @@ Bouquet'N'Blooms - Future features could include:
 ### Testing
 
 Manual Testing was undertaken during the creation of this site. 
-Testing included tests with in Django, on various devices for responsiveness and UX aswell as testing code for bugs.
+Testing included tests on one device for responsiveness and UX aswell as testing code for bugs as well as on Google Chrome
+testing on dev tools for various devices.
 Code was validated for best practice.
 
  - Validation sites used:
@@ -392,7 +390,9 @@ However the site no longer has UX.
 After rectifying issue 6  - the developer went back to gitpod to open up the project and realised the projects also has no UX.
 Please use git commit history from the 30th Dec - updated Readme to see working project with UX.
 
+#### Issue 8
 
+It is realised now the project is deployed to Heroku there are know products added to the site. This due to lack of knowledge and time to add manually to the postgress database.
 ### Validation sites
 
 - When validating the code for HTML and CSS using [W3C Markup Validation](https://validator.w3.org/), errors where found and some were rectified, rectified errors included simple code errors and typos.
@@ -420,22 +420,29 @@ Please use git commit history from the 30th Dec - updated Readme to see working 
 
 ### Devices tested
 
-On the final testing session the below devices was used to check if responsive, here is the outcome and notes.
+On the final testing session before deployment to Heroku the below device was used to check if responsive, here is the outcome and notes.
 
 Mobile:
-- No actual mobile device was tested on as the project is not deployed to Heroku.
+- Samsung A40 was tested on once deplyed to Heroku. However as there was no data stored in the postgress database and the UX was
+  no longer available it was not responsive.
 
 Laptop:
-- Toshiba Satellite C850 - Outcome: All is responsive.
+- Toshiba Satellite C850 - Outcome: All is responsive. 
 The site works well via Goolge Chrome on this device - No issues.
+
+Please not this test was done before deploying to Heroku. Once Deployed to Heroku the site was no longer responsive.
 
 
 <hr>
 
 ## Evaluation
 
-- Overall the design and development of this site is suitable for viewing and searching only.
-- It has basic requirements of a functional website and meets only some the project criteria.
+- The site now deployed to Heroku looks terrible and does not work as a functional site.
+
+Before deployment to Heroku, 
+- The project was working well locally via gitpod.
+- The overall design and development of this site was suitable for viewing and searching products only.
+- It has basic requirements of a functional website and met only some the project criteria.
 - Due to do external commitments and running out of time to continue to develop - many main features have been left out. The developer is aware of aspects that don't function as intended or are not added.        
 - Most of the user stories where met, however the criteria of the project where not.
   In the future these can be looked into and implemented to allow for a fully functional backend site.
@@ -443,7 +450,7 @@ The site works well via Goolge Chrome on this device - No issues.
   professional photos of thier actual products. This is something that can be changed so it gives the site a better visual. For now some generic flower images were used. 
 - Many future features could be added to provide more interactive activity, functionality and imagery.
 - Branch testing - No branch testing was undertaken, something that the developer was intending to do - however due to time contraints just got on with creating as much of the site as possible.
-- Minimal manual testing was undertaken and this was found to be successful. It is noted that there are still validation errors that would need to be looked into by the developer should there have been more time before submission.
+- Minimal manual testing was undertaken prior to deployment to Heroku and this was found to be successful. It is noted that there are still validation errors that would need to be looked into by the developer should there have been more time before submission.
 - The site was to have 4 pages initially but it was discovered early in development that more pages would be required.
 
 <hr>
@@ -453,7 +460,7 @@ The site works well via Goolge Chrome on this device - No issues.
 
 #### Heroku:
 
-The project is deployed to Heroku. It uses the automatic deployment method via Github, using your Github repository.
+The project is deployed to Heroku. It uses the automatic deployment method via Github, using the Github repository.
 
 *Deployed to [Heroku](https://django-bouquetnblooms.herokuapp.com/) and stored in [Github](https://github.com/)*
 
@@ -472,11 +479,12 @@ Below shows the steps required to deploy on Heroku:
 9. Before you click 'Connect', head over to 'Settings' tab and scroll down to the 'Config Vars' section. As we have contained our Environment Variables
    in our env.py file we need to tell Heroku these in a secure manner.
    Add your variables to the below Key/Value pairs:
-    - IP
-    - PORT
+    - **IP** - not entered in Heroku
+    - **PORT** - not entered in Heroku
     - SECRET_KEY
-    - **database details** as the project did not get deployed the developer cannot comment on this requirement.
-    - **database URL** as the project did not get deployed the developer cannot comment on this requirement.
+    - DATABASE_COLLECTSTATIC=1
+    - **database details**  - not entered in Heroku
+    - **database URL** - not entered in Heroku
 
 10. Final step before we connect to Heroku is to push our new files 'requirements.txt' and 'Procfile' to the repository.
     Back in the terminal have a check of the workspace status, type: git status. this will show your new pending files.
@@ -622,9 +630,10 @@ however there are a few style tweaks and differences to try to make the site mor
 Again for quickness the Readme was created initially by copy an pasting in one of the developers previous readme files and editing it as the project was developed. 
 This can be seen in the beginning of the commit history. 
 
-Finally the developer can only apologies for the basic and unfinished Bouquet'N'Blooms project submission, however it was decided to submit something rather than nothing.
 In the last stages of development, the project was running on gitpod locally with full UX, however as explained in Section 'Testing' - Issue 7 after deploying to Heroku all UX 
 was lost.
+
+Finally the developer can only apologies for the basic and unfinished Bouquet'N'Blooms project submission, however it was decided to submit something and fail rather than submit nothing and fail.
 
 
 *Created for education purposes only*
