@@ -443,9 +443,8 @@ It is not deployed due to errors and no time to rectify before submission.
 Below shows the steps the developer believes is required to deploy on Heroku:
 
 1. Heroku requires certain dependencies and applications to run our application. There we need to tell it what is required. 
-   In the terminal type 
-   - requirements.txt
-   - Procfile - web: gunicorn bouquetnblooms.wsgi:application
+   In the terminal type - requirements.txt
+   We also need to create a Procfile - in there add - web: gunicorn bouquetnblooms.wsgi:application
 2. Register on the Heroku website - [Heroku](https://www.heroku.com/) or Log in for existing users.
 3. From the dashboard click 'New' and 'Create new app'.
 4. Enter your unique 'App name' (Heroku practice is for it to be lowercase and to use hyphen (-) instead of spaces).
